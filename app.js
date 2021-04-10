@@ -50,7 +50,7 @@ try {
   for(const url of inputURLs) {
     const response = await fetch(url);
     const contentHTML = await response.text();
-    fs.writeFileSync("test.html", contentHTML);
+    // fs.writeFileSync("test.html", contentHTML);
 
     const links = GotAnyNudes.getLinksForDownload(contentHTML);
     // console.log(links);
@@ -74,7 +74,7 @@ try {
       const absolutePath = path.join(fileDir, link.fileName);
       console.log("Downloading "+ link.fileLink +" to "+ absolutePath);
       try {
-        await Utility.downloadFile(link.fileLink, absolutePath);        
+        await Utility.downloadFile(link.fileLink, absolutePath);
       } catch(err) {
         console.error(err);
       }
