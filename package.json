@@ -1,0 +1,19 @@
+{
+  "name": "GotAnyNudes-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "command-line-usage": "^6.1.1",
+    "jsdom": "^16.5.2",
+    "node-fetch": "^2.6.1"
+  },
+  "pkg": {}
+}
