@@ -5,6 +5,10 @@ jspm_packages/
 # outputs folder
 outputs/
 
+# ignore browser dir
+pw-browsers/
 
 # releases folder
 releases/
+
+test.html

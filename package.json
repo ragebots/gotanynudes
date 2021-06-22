@@ -1,6 +1,6 @@
 {
   "name": "GotAnyNudes-downloader",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "app.js",
   "bin": "app.js",
@@ -14,7 +14,11 @@
     "command-line-args": "^5.1.1",
     "command-line-usage": "^6.1.1",
     "jsdom": "^16.5.2",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "playwright-firefox": "^1.12.2"
   },
-  "pkg": {}
+  "pkg": {
+    "targets": [ "node12-win-x64" ],
+    "assets": [ "./node_modules/playwright-firefox/**/*" ]
+  }
 }

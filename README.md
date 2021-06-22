@@ -8,12 +8,11 @@ On __Windows__,
 GotAnyNudes-downloader-win.exe https://github.com/ragebots/gotanynudes/releases/
 ```
 On __Linux__,
-```
-1. chmod a+x GotAnyNudes-downloader-linux
-2. ./GotAnyNudes-downloader-linux https://github.com/ragebots/gotanynudes/releases/
-```
+You will have to use the node js script directly  
+Check below for guidance
+
 On __Mac__,
-```
-1. chmod a+x GotAnyNudes-downloader-mac
-2. ./GotAnyNudes-downloader-mac https://github.com/ragebots/gotanynudes/releases/
-```  
+You will have to use the node js script directly  
+Check below for guidance  
+
+  
